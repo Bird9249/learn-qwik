@@ -13,5 +13,11 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 };
 
 export default component$(() => {
-  return <Slot />;
+  return (
+    <>
+      <div class="flex flex-col justify-center items-center w-screen min-h-screen gap-2">
+        <Slot />
+      </div>
+    </>
+  );
 });
