@@ -2,14 +2,14 @@
 export default {
   content: [
     './src/**/*.{js,ts,jsx,tsx,mdx}', 
-    './node_modules/flowbite/**/*.js' // add this line
+    './node_modules/flowbite/**/*.js' 
   ],
   darkMode: 'class',
   theme: {
     extend: {},
   },
   plugins: [
-    require('flowbite/plugin') // add this line
+    require('flowbite/plugin') 
   ],
 }
 
